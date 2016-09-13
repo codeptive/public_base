@@ -1,0 +1,14 @@
+{
+  "name": "codeptiveclient",
+  "private": true,
+  "version": "0.0.1",
+  "description": "codeptive commercial site",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "react": "^0.11.2",
+    "react-router": "^0.7.0"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.11.0"
+  }
+}

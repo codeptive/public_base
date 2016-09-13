@@ -1,0 +1,21 @@
+{
+  "name": "codeptive.site",
+  "version": "0.0.1",
+  "description": "codeptive.site",
+  "main": "server.js",
+  "author": {
+    "name": "TonyMack"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.3.1",
+    "mongoose": "~4.2.4",
+    "morgan": "~1.5.0",
+    "passport": "^0.3.0",
+    "passport-jwt": "^1.2.1",
+    "request": "^2.74.0",
+    "typescript": "^1.8.10",
+    "winston": "*"
+  }
+}

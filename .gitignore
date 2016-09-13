@@ -3,7 +3,7 @@ IDE & Meta
 .vs
 node_modules
 bower_modules
-
+*.sln
 
 # Compiled source #
 ###################

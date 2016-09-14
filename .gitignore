@@ -3,8 +3,14 @@ IDE & Meta
 .vs
 node_modules
 bower_components
-*.sln
 wwwroot
+
+*.suo
+*.user
+*.ncb
+Debug/
+Release/
+CodeAnalyst/
 
 # Compiled source #
 ###################
@@ -14,17 +20,6 @@ wwwroot
 *.exe
 *.o
 *.so
-
-# Packages #
-############
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
 
 # Logs and databases #
 ######################
@@ -36,7 +31,6 @@ wwwroot
 ######################
 .DS_Store
 .DS_Store?
-._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db

@@ -1,6 +1,20 @@
 ﻿/*  codeptive main css & overrides */
 
+/*
+ #173e78, #3b7be3
+*/
+
 /* OVERRIDES */
 header.fix {
     background: #fff;
+    padding: 0;
+}
+
+.shader {
+    background: #fff;
+}
+
+nav ul li a {
+    font-family: Montserrat,sans-serif;
+    color: #173e78;
 }

@@ -32,13 +32,26 @@
   <ItemGroup>
     <Content Include="build\**\*.*" />
     <Content Include="docs\**\*.*" />
-    <Content Include="src\index.html" />
+    <Content Include="src\css\main.css" />
     <Content Include="src\index.html" />
     <Content Include="src\jsx\app.jsx" />
     <Content Include="src\jsx\components\account\register.jsx" />
     <Content Include="src\jsx\components\auth\login.jsx" />
     <Content Include="gulpfile.js" />
     <Content Include="package.json" />
+    <Content Include="src\vendor\theme\animate.min.css" />
+    <Content Include="src\vendor\theme\blue.css" />
+    <Content Include="src\vendor\theme\customiser.css" />
+    <Content Include="src\vendor\theme\customiser.min.css" />
+    <Content Include="src\vendor\theme\ie.css" />
+    <Content Include="src\vendor\theme\ie.min.css" />
+    <Content Include="src\vendor\theme\lity.min.css" />
+    <Content Include="src\vendor\theme\owl.carousel.css" />
+    <Content Include="src\vendor\theme\reset.css" />
+    <Content Include="src\vendor\theme\screen.css" />
+    <Content Include="src\vendor\theme\screen.min.css" />
+    <Content Include="build\inview-control.js" />
+    <Content Include="build\main.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\img\" />
@@ -48,7 +61,7 @@
     <Folder Include="src\jsx\components\error\" />
     <Folder Include="src\jsx\components\footer\" />
     <Folder Include="src\jsx\components\header\" />
-    <Folder Include="src\style\" />
+    <Folder Include="src\vendor\scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\jsx\app.jsx" />
@@ -57,7 +70,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower.json" />
-    <Content Include="npm-debug.log" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

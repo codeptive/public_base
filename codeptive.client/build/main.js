@@ -2,6 +2,7 @@ $(function() {
     "use strict";
 
     // Stick Top
+    
     var sticky = $('.sticky'),
         scroll = $(window).scrollTop();
     if (scroll >= 20) sticky.addClass('fix');
@@ -14,6 +15,10 @@ $(function() {
         if (scroll >= 5) sticky.addClass('fix');
         else sticky.removeClass('fix');
     });
+    /*
+    var sticky = $('.sticky');
+    sticky.addClass('fix');
+*/
 
     // Menu Operator
     $('nav.main_nav').children().clone().appendTo(".mobile-nav");

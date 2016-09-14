@@ -2,8 +2,9 @@ IDE & Meta
 ###########
 .vs
 node_modules
-bower_modules
+bower_components
 *.sln
+wwwroot
 
 # Compiled source #
 ###################

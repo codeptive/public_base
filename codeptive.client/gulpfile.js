@@ -12,7 +12,8 @@ var tasks = [
     'build-vendor-css',
     'build-app-css',
     'images',
-    'html'
+    'html',
+    'fonts'
 ];
 
 // Settings
@@ -70,6 +71,13 @@ gulp.task('html', function () {
     src.pages = 'src/**/*.html';
     return gulp.src(src.pages)
       .pipe(gulp.dest(DEST))
+});
+
+// Fonts
+gulp.task('fonts', function () {
+    src.fonts = 'src/vendor/font-awesome/fonts/**';
+    return gulp.src(src.fonts)
+      .pipe(gulp.dest(DEST + '/fonts'))
 });
 
 // The default task

@@ -2,7 +2,7 @@ $(function() {
     "use strict";
 
     // Stick Top
-    
+    /*
     var sticky = $('.sticky'),
         scroll = $(window).scrollTop();
     if (scroll >= 20) sticky.addClass('fix');
@@ -15,10 +15,28 @@ $(function() {
         if (scroll >= 5) sticky.addClass('fix');
         else sticky.removeClass('fix');
     });
-    /*
+    
     var sticky = $('.sticky');
     sticky.addClass('fix');
 */
+    // search init
+    $(document).ready(function (e) {
+        $('.search-panel .dropdown-menu').find('a').click(function (e) {
+            e.preventDefault();
+            var param = $(this).attr("href").replace("#", "");
+            var concept = $(this).text();
+            $('.search-panel span#search_concept').text(concept);
+            $('.input-group #search_param').val(param);
+        });
+    });
+
+    $(window).on('scroll', function () {
+        var sticky = $('.sticky'),
+            scroll = $(window).scrollTop();
+
+        if (scroll >= 5) sticky.addClass('header-shadow');
+        else sticky.removeClass('header-shadow');
+    });
 
     // Menu Operator
     $('nav.main_nav').children().clone().appendTo(".mobile-nav");

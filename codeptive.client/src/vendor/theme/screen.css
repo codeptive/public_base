@@ -291,7 +291,7 @@ header.fix nav ul li a {
 /* Section Top */
 /* --------------------- */
 section#top {
-  background: url(../img/banner.jpg) top center;
+  background: none;
   background-size: cover;
   height: 800px;
   padding-top: 280px;

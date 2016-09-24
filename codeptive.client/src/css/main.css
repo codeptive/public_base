@@ -1,20 +1,210 @@
-﻿/*  codeptive main css & overrides */
+﻿/*  Codeptive main styles & overrides */
 
-/*
- #173e78, #3b7be3
-*/
+/* #173e78, #3b7be3, #26043b */
 
-/* OVERRIDES */
-header.fix {
-    background: #fff;
-    padding: 0;
+
+/* GLOBALS */
+
+body {
+    -webkit-font-smoothing: antialiased;
 }
 
-.shader {
+.button, section#contact form input.button1 {
+    background: #3d1259;
+    border: 1px solid #3d1259;
+    border-radius: 2px;
+
+}
+
+a.button {
+    font-family: 'Monda', sans-serif !important;
+    font-size: 11px;
+    font-weight: 700;
+    color: unset !important;
+}
+
+.blue-button {
+    background: #5984d4;
+    border: 1px solid #5984d4;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.purple-button {
+    background: #3d1259;
+    border: 1px solid #3d1259;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.lt-grey-button {
+    background: #8f9fb0;
+    border: 1px solid #8f9fb0;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.white-font {
+    color: #fff !important;
+}
+
+.blue-font {
+    color: #3b7be3 !important;
+}
+
+.blue-outline {
     background: #fff;
+    border: 1px solid #3b7be3;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.soft-blue-outline {
+    background: #fff;
+    border: 1px solid #9ebddb !important;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.white-font-med {
+    color: #fff;
+    font-size: 12px;
+}
+
+.horizontal-spacer-small {
+    margin-left: 4px;
+}
+
+.button {
+    padding: 12px 20px 10px 20px;
+}
+
+.button:hover, section#contact form input.button1:hover {
+  background: #803ac2;
+  border: 1px solid #803ac2;
+}
+
+.blue-outline:hover {
+    background: #fff !important;
+    border: 1px solid #9cd0f3 !important;
+}
+
+.btn {
+    border-radius: 2px;
+    padding: 6px 16px;
+}
+
+/* HEADER */
+header.fix, header {
+    background-color: #fff;
+    padding: 0;
+    max-height: 52px;
+}
+
+header {
+    background: url('../img/stripes.png') no-repeat 20px 0px #fff;
+}
+
+nav {
+    padding-top: 11px;
+    padding-right: 40px;
+}
+
+header .button {
+    margin-top: 6px;
 }
 
 nav ul li a {
-    font-family: Montserrat,sans-serif;
-    color: #173e78;
+    font-family: 'Monda', sans-serif !important;
+    color: #5a2a80;
+    font-size: 11px;
+    font-weight: 700;
 }
+
+.alt-nav-a {
+    font-family: 'Monda', sans-serif !important;
+    color: #5984d4;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.header-shadow {
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(38,4,59,0.21);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(38,4,59,0.21);
+    box-shadow: 0px 1px 1px 0px rgba(38,4,59,0.21);
+}
+
+/* SECTION SEARCH */
+
+#search {
+    margin-top: 52px;
+    padding: 0 !important;
+    z-index: 10;
+}
+
+section#search {
+    background: none;
+}
+
+.search-form {
+    background-color: rgba(43, 17, 54, 0.3);
+    height: 82px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    z-index: 10;
+}
+
+.search-elements {
+    height: 40px;
+}
+
+.search-panel, .search-elements {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+    color: #3b7be3 !important;
+}
+
+.form-control {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    z-index: 10;
+}
+
+/* SECTION TOP */
+
+.shader, .shader-gradient, .shader-primary {
+    opacity: 1;
+}
+
+.shader {
+    margin-top: -82px;
+    background-image: url('../img/hero/hero-narrow_1e.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #26043b;
+    z-index: 1;
+}
+
+section#top {
+    background: none;
+    background-size: cover;
+    height: 800px;
+    padding-top: 280px;
+    z-index: 1;
+}
+
+/* SECTION PRICING */
+
+.gradient, .shader-gradient {
+    background: #26043b;
+}
+

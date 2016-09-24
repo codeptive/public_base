@@ -33,28 +33,31 @@
     <Content Include="build\**\*.*" />
     <Content Include="docs\**\*.*" />
     <Content Include="src\css\main.css" />
+    <Content Include="src\img\hero\hero-narrow_1.png" />
+    <Content Include="src\img\hero\hero_1.jpg" />
+    <Content Include="src\img\hero\hero_1.png" />
+    <Content Include="src\img\hero\Untitledss.png" />
+    <Content Include="src\img\logo_enclosed.png" />
+    <Content Include="src\img\logo_lockup_main.png" />
     <Content Include="src\index.html" />
     <Content Include="src\jsx\app.jsx" />
     <Content Include="src\jsx\components\account\register.jsx" />
     <Content Include="src\jsx\components\auth\login.jsx" />
     <Content Include="gulpfile.js" />
     <Content Include="package.json" />
-    <Content Include="src\vendor\theme\animate.min.css" />
+    <Content Include="src\vendor\theme\animate.css" />
     <Content Include="src\vendor\theme\blue.css" />
-    <Content Include="src\vendor\theme\customiser.css" />
     <Content Include="src\vendor\theme\customiser.min.css" />
     <Content Include="src\vendor\theme\ie.css" />
     <Content Include="src\vendor\theme\ie.min.css" />
     <Content Include="src\vendor\theme\lity.min.css" />
     <Content Include="src\vendor\theme\owl.carousel.css" />
     <Content Include="src\vendor\theme\reset.css" />
-    <Content Include="src\vendor\theme\screen.css" />
-    <Content Include="src\vendor\theme\screen.min.css" />
     <Content Include="build\inview-control.js" />
     <Content Include="build\main.js" />
+    <Content Include="src\vendor\theme\screen.css" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\img\" />
     <Folder Include="src\jsx\components\chat\" />
     <Folder Include="src\jsx\components\common\" />
     <Folder Include="src\jsx\components\content\" />

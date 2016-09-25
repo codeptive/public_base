@@ -5,38 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Codeptive - Code Adept Collective</title>
-
+    <title>IT Remote Project Platform</title>
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Open+Sans|Roboto|Monda:700|Source+Code+Pro|Voltaire|Gudea|Armata">
-
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/app.css">
-
 </head>
 <body>
     <div id="app"></div>
     <div class="wrapper">
+        <a href="" class="cd-nav-trigger hidden-md hidden-lg sticky">
+            Menu
+            <span class="cd-nav-icon"></span>
+            <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+                <circle fill="transparent" stroke="#ffffff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+            </svg>
+        </a>
+        <nav class="mobile-nav hidden-md hidden-lg">
+            <div class="social_holder">
+                <a href="#" class="social-button animated dp1"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="social-button animated dp2"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="social-button animated dp3"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="social-button animated dp4"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="social-button animated dp5"><i class="fa fa-google-plus"></i></a>
+            </div>
+            <img alt="" src="img/nav_bg.jpg">
+        </nav>
         <header class="sticky">
-            <div class="container-fluid nav-constraint">
-                <!-- Branding -->
-                <a href="index.html" class="header-logo">
-                    <img src="img/logo_lockup_main1g.png" />
-                </a>
+            <div class="container-fluid nav-constraint animated fadeInDown dp3">
+                <a href="index.html" class="logo"><img src="img/logo_lockup_main.png" /></a>
                 <!-- Sign Up / Login -->
                 <a href="#" class="button dl horizontal-spacer-small">
-                    <span class="white-font">SIGN UP&nbsp;&nbsp;&nbsp;</span>
+                    <span class="white-font">SIGN UP&nbsp;</span>
                     <i class="fa fa-caret-right white-font-med"></i>
                 </a>
-                <a href="#" class="button dl blue-outline ">
-                    <span class="blue-font">LOGIN</span>
+                <a href="#" class="button dl green-outline ">
+                    <span class="blue-font"><i class="fa fa-lock"></i>&nbsp;LOGIN</span>
                 </a>
                 <!-- Nav menu -->
                 <nav class="main_nav hidden-sm hidden-xs">
                     <ul>
                         <li><a href="#rfp">POST A PROJECT</a></li>
-                        <li><a href="#bid">SUBMIT A PROPOSAL</a></li>
-                        <li><a href="#how" class="alt-nav-a">ABOUT THE COLLECTIVE</a></li>
+                        <li class="nav-item border-left"><a href="#bid">BID ON A PROJECT</a></li>
+                        <li class="nav-item border-left"><a href="#how" class="alt-nav-a">THE COLLECTIVE</a></li>
                     </ul>
                 </nav>
             </div>
@@ -63,13 +75,13 @@
                                 <input type="hidden" name="search_param" value="all" id="search_param">
                                 <input type="text" class="form-control search-elements soft-blue-outline" name="searchBox" id="searchBox" placeholder="Enter keywords...">
                                 <span class="input-group-btn ">
-                                    <button class="btn btn-default search-elements purple-button" type="button">
+                                    <button class="btn btn-default button search-elements purple-button" type="button">
                                         <i class="fa fa-search white-font-med"></i>
                                     </button>
                                 </span>
                             </div>
                             <div>
-                                <a href="#"><span>Advanced search</span></a>
+                                <a href="#"><span class="small-link-text">Advanced search</span></a>
                             </div>
                         </div>
                     </div>

@@ -12,6 +12,7 @@ var tasks = [
     'build-vendor-css',
     'build-app-css',
     'images',
+    'favicon',
     'html',
     'fonts'
 ];
@@ -64,6 +65,13 @@ gulp.task('images', function () {
     src.images = 'src/img/**';
     return gulp.src(src.images)
       .pipe(gulp.dest(DEST + '/img'));
+});
+
+// Favicon.ico
+gulp.task('favicon', function () {
+    src.favicon = 'src/img/favicon.ico';
+    return gulp.src(src.favicon)
+      .pipe(gulp.dest(DEST + "/img"));
 });
 
 // HTML pages

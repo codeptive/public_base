@@ -45,6 +45,8 @@
     <Content Include="src\jsx\components\auth\login.jsx" />
     <Content Include="gulpfile.js" />
     <Content Include="package.json" />
+    <Content Include="src\vendor\font-awesome\font-awesome.min.css" />
+    <Content Include="src\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="src\vendor\theme\animate.css" />
     <Content Include="src\vendor\theme\blue.css" />
     <Content Include="src\vendor\theme\customiser.min.css" />
@@ -73,6 +75,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bower.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="src\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="src\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="src\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="src\vendor\font-awesome\fonts\FontAwesome.otf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

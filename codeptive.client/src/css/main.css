@@ -1,24 +1,24 @@
 ﻿/*  Codeptive main styles & overrides */
 
-/* #173e78, #3b7be3, #26043b */
-
-
 /* GLOBALS */
 
 body {
     -webkit-font-smoothing: antialiased;
+    background: #fff;
 }
 
+/* BUTTONS */
+
 .button, section#contact form input.button1 {
-    background: #3d1259;
-    border: 1px solid #3d1259;
-    border-radius: 2px;
+    background: #40BF73;
+    border: 1px solid #40BF73;
+    border-radius: 1px;
 
 }
 
 a.button {
-    font-family: 'Monda', sans-serif !important;
-    font-size: 11px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 12px;
     font-weight: 700;
     color: unset !important;
 }
@@ -26,21 +26,22 @@ a.button {
 .blue-button {
     background: #5984d4;
     border: 1px solid #5984d4;
-    border-radius: 2px;
+    border-radius: 1px;
     box-sizing: border-box;
+    transition: .2s all ease;
 }
 
 .purple-button {
-    background: #3d1259;
-    border: 1px solid #3d1259;
-    border-radius: 2px;
+    background: #40BF73;
+    border: 1px solid #40BF73;
+    border-radius: 1px;
     box-sizing: border-box;
 }
 
 .lt-grey-button {
     background: #8f9fb0;
     border: 1px solid #8f9fb0;
-    border-radius: 2px;
+    border-radius: 1px;
     box-sizing: border-box;
 }
 
@@ -49,20 +50,20 @@ a.button {
 }
 
 .blue-font {
-    color: #3b7be3 !important;
+    color: #3A5EAD !important;
 }
 
-.blue-outline {
-    background: #fff;
-    border: 1px solid #3b7be3;
-    border-radius: 2px;
+.green-outline {
+    background: none;
+    border: 1px solid #40BF73;
+    border-radius: 1px;
     box-sizing: border-box;
 }
 
 .soft-blue-outline {
     background: #fff;
     border: 1px solid #9ebddb !important;
-    border-radius: 2px;
+    border-radius: 1px;
     box-sizing: border-box;
 }
 
@@ -71,60 +72,93 @@ a.button {
     font-size: 12px;
 }
 
+.border-left {
+    border-left: 1px solid #D8D8D8; 
+}
+
 .horizontal-spacer-small {
     margin-left: 4px;
 }
 
 .button {
     padding: 12px 20px 10px 20px;
+    margin-top: 0;
 }
 
-.button:hover, section#contact form input.button1:hover {
-  background: #803ac2;
-  border: 1px solid #803ac2;
+.button:hover, .button:active, .button:focus, section#contact form input.button1:hover {
+    background: #5CD68E;
+    border: 1px solid #5CD68E;
 }
 
-.blue-outline:hover {
-    background: #fff !important;
-    border: 1px solid #9cd0f3 !important;
+.blue-button:hover, .blue-button:active, .blue-button:focus {
+    background: #77a0ed !important;
+    border: 1px solid #77a0ed !important;
+}
+
+.green-outline:hover {
+    background: none !important;
+    border: 1px solid #61E094 !important;
 }
 
 .btn {
-    border-radius: 2px;
+    border-radius: 1px;
     padding: 6px 16px;
 }
 
 /* HEADER */
-header.fix, header {
-    background-color: #fff;
-    padding: 0;
-    max-height: 52px;
-}
 
-header {
-    background: url('../img/stripes.png') no-repeat 20px 0px #fff;
+.nav-constraint {
+    max-width: 1280px;
 }
 
 nav {
-    padding-top: 11px;
-    padding-right: 40px;
+    padding: 7px 50px 0 0;
+}
+
+header {
+    padding: 26px 0 0 0;
+}
+
+header .logo img {
+    transition: .2s all ease;
+}
+
+header.fix, header {
+    background-color: #fff;
+}
+
+header.fix {
+    padding: 0;
+    height: 50px;
+}
+
+header.fix .logo img {
+    content: url('../img/logo_lockup_main_smaller.png');
+    margin-top: 2px;
 }
 
 header .button {
-    margin-top: 6px;
+    margin-top: 3px;
+}
+
+header.fix .button {
+    padding: 12px 20px 10px 20px;
+    margin-top: 5px;
+}
+
+.alt-nav-a, nav ul li a {
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 nav ul li a {
-    font-family: 'Monda', sans-serif !important;
-    color: #5a2a80;
-    font-size: 11px;
+    color: #3A5EAD;
+    font-size: 12px;
     font-weight: 700;
 }
 
 .alt-nav-a {
-    font-family: 'Monda', sans-serif !important;
-    color: #5984d4;
-    font-size: 11px;
+    color: #7795D8;
+    font-size: 12px;
     font-weight: 700;
 }
 
@@ -137,17 +171,17 @@ nav ul li a {
 /* SECTION SEARCH */
 
 #search {
-    margin-top: 52px;
+    margin-top: 70px;
     padding: 0 !important;
     z-index: 10;
 }
 
 section#search {
-    background: none;
+    background: #fff;
 }
 
 .search-form {
-    background-color: rgba(43, 17, 54, 0.3);
+    background-color: #fff;
     height: 82px;
     width: 100%;
     padding-top: 20px;
@@ -170,13 +204,20 @@ section#search {
     font-size: 14px;
     color: #555;
     border: 1px solid #ccc;
-    border-radius: 2px;
+    border-radius: 1px;
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
     z-index: 10;
+}
+
+.small-link-text {
+    color: #fff;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 /* SECTION TOP */
@@ -186,11 +227,10 @@ section#search {
 }
 
 .shader {
-    margin-top: -82px;
-    background-image: url('../img/hero/hero-narrow_1e.png');
+    background-image: url('../img/hero/hero_2a.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #26043b;
+    background-color: #fff;
     z-index: 1;
 }
 

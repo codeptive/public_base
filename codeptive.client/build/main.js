@@ -1,24 +1,27 @@
-$(function() {
+$(function () {
+
     "use strict";
 
     // Stick Top
-    /*
     var sticky = $('.sticky'),
         scroll = $(window).scrollTop();
     if (scroll >= 20) sticky.addClass('fix');
     else sticky.removeClass('fix');
 
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
         var sticky = $('.sticky'),
+            nav = $('.nav-item'),
             scroll = $(window).scrollTop();
 
-        if (scroll >= 5) sticky.addClass('fix');
-        else sticky.removeClass('fix');
+        if (scroll >= 5) {
+            sticky.addClass('fix');
+            nav.removeClass('border-left')
+        } else {
+            sticky.removeClass('fix');
+            nav.addClass('border-left');
+        }
     });
-    
-    var sticky = $('.sticky');
-    sticky.addClass('fix');
-*/
+
     // search init
     $(document).ready(function (e) {
         $('.search-panel .dropdown-menu').find('a').click(function (e) {

@@ -7,14 +7,16 @@
     <meta name="keywords" content="">
     <title>IT Remote Project Platform</title>
     <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Serif|Open+Sans|Roboto|Monda:700|Source+Code+Pro|Voltaire|Gudea|Armata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Abel|Open+Sans|Roboto|Monda:700|Source+Code+Pro|Voltaire|Gudea|Armata">
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+    
     <div id="app"></div>
     <div class="wrapper">
+        
         <a href="" class="cd-nav-trigger hidden-md hidden-lg sticky">
             Menu
             <span class="cd-nav-icon"></span>
@@ -33,6 +35,7 @@
             <img alt="" src="img/nav_bg.jpg">
         </nav>
         <header class="sticky">
+            <!--div class="page-border-top"></!--div-->
             <div class="container-fluid nav-constraint animated fadeInDown dp3">
                 <a href="index.html" class="logo"><img src="img/logo_lockup_main.png" /></a>
                 <!-- Sign Up / Login -->
@@ -43,12 +46,19 @@
                 <a href="#" class="button dl green-outline ">
                     <span class="blue-font"><i class="fa fa-lock"></i>&nbsp;LOGIN</span>
                 </a>
-                <!-- Nav menu -->
+                <!-- Nav menus -->
+                <nav class="icon-nav">
+                    <ul>
+                        <li><a href="#">?</a></li>               
+                        <li><a href="#"><img class="small-icon" src="img/icon_search.png" /></a></li>
+                        <li><a href="#"><i class="fa fa-bars icon-header"></i></a></li>
+                    </ul>
+                </nav>
                 <nav class="main_nav hidden-sm hidden-xs">
                     <ul>
                         <li><a href="#rfp">POST A PROJECT</a></li>
                         <li class="nav-item border-left"><a href="#bid">BID ON A PROJECT</a></li>
-                        <li class="nav-item border-left"><a href="#how" class="alt-nav-a">THE COLLECTIVE</a></li>
+                        <li class="nav-item border-left"><a href="#how"><span class="lt-blue-font">THE COLLECTIVE</span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -57,32 +67,31 @@
             <div class="search-form">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-8 col-xs-offset-2">
-                            <div class="input-group">
-                                <div class="input-group-btn search-panel">
-                                    <button type="button" class="btn btn-default dropdown-toggle search-elements blue-button" data-toggle="dropdown">
-                                        <span id="search_concept" class="white-font">Search jobs&nbsp;&nbsp;<i class="fa fa-caret-down white-font-med"></i></span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#contains">Contains</a></li>
-                                        <li><a href="#its_equal">It's equal</a></li>
-                                        <li><a href="#greather_than">Greather than ></a></li>
-                                        <li><a href="#less_than">Less than < </a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#all">Anything</a></li>
-                                    </ul>
-                                </div>
-                                <input type="hidden" name="search_param" value="all" id="search_param">
-                                <input type="text" class="form-control search-elements soft-blue-outline" name="searchBox" id="searchBox" placeholder="Enter keywords...">
-                                <span class="input-group-btn ">
-                                    <button class="btn btn-default button search-elements purple-button" type="button">
-                                        <i class="fa fa-search white-font-med"></i>
-                                    </button>
+                        <div class="col-xs-4">
+                            <div class="slogan-sub-nav">
+                                <span class="blue-font">
+                                    Join the 
+                                    <a href="#" class="underline-anchor"><span class="lt-blue-font">CodeAdept</span></a> 
+                                    and never freelance again.
                                 </span>
                             </div>
-                            <div>
-                                <a href="#"><span class="small-link-text">Advanced search</span></a>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="input-group inline">
+                                <input type="hidden" name="search_param" value="all" id="search_param">
+                                <span class="input-group-btn search-icon-header">
+                                    <a href="#"><img src="img/icon_search.png" /></a>
+                                </span>
+                                <input type="text" class="form-control search-elements green-outline-search" 
+                                       name="searchBox" id="searchBox" 
+                                       placeholder="Search jobs or find contractors...">
+                                <span class="inline">
+                                    <a href="#" class="underline-anchor"><span class="small-link-text blue-font">Advanced search</span></a>
+                                </span>
                             </div>
+                        </div>
+                        <div class="col-xs-2">
+                            
                         </div>
                     </div>
                 </div>
@@ -90,15 +99,45 @@
         </section>
         <section id="top">
             <div class="shader"></div>
-            <div class="container">
+            <div class="container opacity-layer">
                 <div class="row">
-                    <div class="col-md-5 col-sm-12 page-title">
-                        <h1>Presenting your app was never easy...<br>Until now</h1>
-                        <h3>Now on the App Store and Play Store</h3>
-                    </div>
-                    <div class="col-md-7 hidden-sm hidden-xs phone-holder">
-
-                    </div>
+                    <div class="col-md-12 page-title">
+                        <div class="page-heading-top">
+                            <h1 class="shadow-text">Welcome to the <span class="green-font">premier</span> software & IT remote job marketplace.</h1>
+                        </div>
+                        <div class="page-heading-text">
+                            <ul class="custom-li-chevron">
+                                <li>
+                                    <span class="custom-li-span">Employers find talent from the industry's leading programmers, architects, visual designers & project managers.</span>
+                                </li>
+                                <li>
+                                    <span class="custom-li-span">Bring your career to new heights with our premium job listings, advanced workroom, and
+                                        <a href="#" class="underline-anchor"><span class="lt-blue-font">CodeAdept</span></a> 
+                                        support network.
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cta-heading">
+                            <h2>I want to:</h2>
+                        </div>
+                        <div class="cta-buttons">
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#" class="button-hero-alt">
+                                        <img class="icon-adjust-small" src="img/icon_users2.png" />
+                                        <span class="white-font">&nbsp;&nbsp;HIRE TALENT</span>
+                                    </a>
+                                </li>
+                                <li class="margin-left-med">
+                                    <a href="#" class="button-hero">
+                                        <img class="icon-adjust-small" src="img/icon_binoculars.png" />
+                                        <span class="white-font">&nbsp;&nbsp;FIND WORK</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>    
                 </div>
             </div>
         </section>

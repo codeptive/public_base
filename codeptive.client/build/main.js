@@ -10,15 +10,18 @@ $(function () {
 
     $(window).on('scroll', function () {
         var sticky = $('.sticky'),
-            nav = $('.nav-item'),
+            navItem = $('.nav-item'),
+            nav = $('nav'),
             scroll = $(window).scrollTop();
 
         if (scroll >= 5) {
             sticky.addClass('fix');
-            nav.removeClass('border-left')
+            navItem.removeClass('border-left');
+            nav.addClass('padding-adjust');
         } else {
             sticky.removeClass('fix');
-            nav.addClass('border-left');
+            navItem.addClass('border-left');
+            nav.removeClass('padding-adjust');
         }
     });
 

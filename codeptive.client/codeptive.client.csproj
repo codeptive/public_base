@@ -36,8 +36,6 @@
     <Content Include="src\img\hero\hero-narrow_1.png" />
     <Content Include="src\img\hero\hero_1.jpg" />
     <Content Include="src\img\hero\hero_1.png" />
-    <Content Include="src\img\hero\Untitledss.png" />
-    <Content Include="src\img\logo_enclosed.png" />
     <Content Include="src\img\logo_lockup_main.png" />
     <Content Include="src\index.html" />
     <Content Include="src\jsx\app.jsx" />

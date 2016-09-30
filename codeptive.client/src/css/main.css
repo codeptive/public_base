@@ -8,19 +8,19 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400 !important;
 }
 
 h1 {
-    letter-spacing: -1.5px;
-    font-size: 41px;
+    letter-spacing: 0;
+    font-size: 42px;
 }
 
 h2 {
     color: #fefefe;
     line-height: 26px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     font-size: 24px;
 }
 
@@ -38,10 +38,6 @@ img {
     text-shadow: 6px 6px 22px #000;
 }
 
-.margin-left-med {
-    margin-left: 90px;
-}
-
 .underline-anchor:hover span {
     text-decoration: underline !important;
 }
@@ -53,7 +49,7 @@ img {
 /* BUTTONS & FONTS */
 
 .button, section#contact form input.button1 {
-    background: #3361a8;
+    background: #5688d1;
     border: 1px solid #5889e6;
     border-radius: 1px;
 }
@@ -96,7 +92,7 @@ a.button {
 }
 
 .blue-font {
-    color: #3A5EAD !important;
+    color: #5688d1 !important;
 }
 
 .lt-blue-font {
@@ -109,6 +105,10 @@ a.button {
 
 .green-font {
     color: #19a961 !important;
+}
+
+.lt-green-font {
+    color: #41ff96 !important;
 }
 
 .dk-green-font {
@@ -174,13 +174,14 @@ a.button {
 
 .button-hero, .button-hero-alt {
     background: #19a961;
-    border: 1px solid #19a961;
+    border: 1px solid #24c876;
     border-radius: 1px;
     padding: 10px 20px;
     display: inline-block;
-    color: white;
+    color: #fff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    font-weight: 700;
     transition: .1s all ease;
     line-height: 38px;
     width: 260px;
@@ -389,7 +390,7 @@ section#search {
 
 .outline-search {
     font-family: 'Open Sans', sans-serif !important;
-    background: #fff;
+    background: #f4f8ff;
     border: 1px solid #8eb0f0 !important;
     border-radius: 1px;
     box-sizing: border-box;
@@ -442,10 +443,9 @@ section#search {
 }
 
 .shader {
-    background-image: url('../img/hero/hero_2c.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: #fff;
+    background-color: #101012;
     z-index: 1;
 }
 
@@ -480,12 +480,20 @@ section#top {
 }
 
 .large-text {
-    font-size: 38px;
+    font-size: 34px;
 }
 
 .x-large-text {
-    font-size: 44px;
+    font-size: 46px;
     margin-top: 15px;
+}
+
+.diamond {
+    padding-top: 28px;
+    margin: 60px auto 0 auto;
+    background: url('../img/diamond_bg.png') no-repeat;
+    width: 168px;
+    height: 127px;
 }
 
 .page-heading-text {
@@ -505,7 +513,11 @@ section#top {
 }
 
 .cta-buttons {
-    margin-top: 70px;
+    margin-top: 50px;
+}
+
+.margin-left-med {
+    margin-left: 86px;
 }
 
 .icon-green-hero {
@@ -559,6 +571,18 @@ section#top {
 
 .gradient, .shader-gradient {
     background: #2d64a5;
+}
+
+/* FOOTER (CONTACT) */
+
+section#contact {
+    background: #101012;
+}
+
+.footer-logo {
+    background-image: url('../img/logo_mark.png');
+    width: 186px;
+    height: 176px;
 }
 
 

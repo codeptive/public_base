@@ -28,8 +28,18 @@ $(function () {
         }
     });
 
+    var random = function (min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+
     // search init
     $(document).ready(function (e) {
+        var num = random(1, 4);
+        var shader = document.getElementById("shader");
+        shader.style.backgroundImage = "url('img/hero/hero_" + num.toString() + ".png')";
+
         $('.search-panel .dropdown-menu').find('a').click(function (e) {
             e.preventDefault();
             var param = $(this).attr("href").replace("#", "");

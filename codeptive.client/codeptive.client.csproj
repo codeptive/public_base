@@ -33,10 +33,16 @@
     <Content Include="build\**\*.*" />
     <Content Include="docs\**\*.*" />
     <Content Include="src\css\main.css" />
-    <Content Include="src\img\hero\hero-narrow_1.png" />
-    <Content Include="src\img\hero\hero_1.jpg" />
-    <Content Include="src\img\hero\hero_1.png" />
+    <Content Include="src\img\favicon.ico" />
+    <Content Include="src\img\icon_binoculars.png" />
+    <Content Include="src\img\icon_fb.png" />
+    <Content Include="src\img\icon_search.png" />
+    <Content Include="src\img\icon_twitter.png" />
+    <Content Include="src\img\icon_users.png" />
+    <Content Include="src\img\icon_users2.png" />
     <Content Include="src\img\logo_lockup_main.png" />
+    <Content Include="src\img\logo_lockup_main_smaller.png" />
+    <Content Include="src\img\logo_mark.png" />
     <Content Include="src\index.html" />
     <Content Include="src\jsx\app.jsx" />
     <Content Include="src\jsx\components\account\register.jsx" />
@@ -58,6 +64,7 @@
     <Content Include="src\vendor\theme\screen.css" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="src\img\hero\" />
     <Folder Include="src\jsx\components\chat\" />
     <Folder Include="src\jsx\components\common\" />
     <Folder Include="src\jsx\components\content\" />

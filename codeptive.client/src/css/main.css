@@ -21,7 +21,7 @@ h2 {
     color: #fefefe;
     line-height: 26px;
     letter-spacing: 0px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 h3 {
@@ -53,8 +53,8 @@ img {
 /* BUTTONS & FONTS */
 
 .button, section#contact form input.button1 {
-    background: #40BF73;
-    border: 1px solid #40BF73;
+    background: #3361a8;
+    border: 1px solid #5889e6;
     border-radius: 1px;
 }
 
@@ -63,6 +63,10 @@ a.button {
     font-size: 12px;
     font-weight: 700;
     color: unset !important;
+}
+
+.button:hover {
+    background: #9ebddb;
 }
 
 .blue-button {
@@ -99,17 +103,31 @@ a.button {
     color: #69b6ee !important;
 }
 
-.green-font {
-    color: #27da81 !important;
+.lt-blue-font2 {
+    color: #5889e6 !important;
 }
 
-.green-outline {
+.green-font {
+    color: #19a961 !important;
+}
+
+.dk-green-font {
+    color: #2cc557 !important;
+}
+
+
+.blue-outline2 {
     font-family: 'Open Sans', sans-serif !important;
     background: none;
-    border: 1px solid #40BF73;
+    border: 1px solid #8eb0f0;
     border-radius: 1px;
     box-sizing: border-box;
     transition: .1s all ease;
+}
+
+.blue-outline2:hover {
+    border: 1px solid #91b7ff !important;
+    background: none !important;
 }
 
 .green-outline span {
@@ -167,9 +185,9 @@ a.button {
     line-height: 38px;
     width: 260px;
     height: 60px;
-    -webkit-box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.6);
-    box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.5);
 }
 
 .button-hero-alt {
@@ -181,6 +199,12 @@ a.button {
     background: #1cb569;
     border: 1px solid #1cb569;
 }
+
+.button-hero-alt:hover {
+    background: #5b84df;
+    border: 1px solid #5b84df;
+}
+
 
 .button:hover, .button:active, .button:focus, section#contact form input.button1:hover {
     background: #5CD68E;
@@ -302,6 +326,13 @@ nav ul li a {
     font-size: 15px;
 }
 
+.sub-nav-line {
+    border-top: 1px solid #e7ecf2;
+    height: 1px;
+    background: none;
+    margin: 0 15px 15px 15px;
+}
+
 /* SUB NAV */
 
 .slogan-sub-nav {
@@ -313,6 +344,18 @@ nav ul li a {
     text-align: left;
     vertical-align: baseline; 
     margin-top: 10px;
+}
+
+.social-icon-wrapper {
+    margin-top: 5px;
+}
+
+.social-icon-small img {
+    width: 25px;
+}
+
+.align-left {
+    text-align: left !important;
 }
 
 /* SECTION SEARCH */
@@ -329,21 +372,25 @@ section#search {
 
 .search-form {
     background-color: #fff;
-    height: 65px;
+    height: 83px;
     width: 100%;
     padding-top: 15px;
-    text-align: center;
+    text-align: right;
     z-index: 10;
+}
+
+.search-box {
+    float: right;
 }
 
 .search-icon-header img {
     margin-right: 5px;
 }
 
-.green-outline-search {
+.outline-search {
     font-family: 'Open Sans', sans-serif !important;
     background: #fff;
-    border: 1px solid #6695ee !important;
+    border: 1px solid #8eb0f0 !important;
     border-radius: 1px;
     box-sizing: border-box;
 }
@@ -405,7 +452,7 @@ section#search {
 section#top {
     background: none;
     background-size: cover;
-    height: 800px;
+    height: 550px;
     padding-top: 0;
     z-index: 1;
 }
@@ -425,6 +472,22 @@ section#top {
     margin-top: 65px;
 }
 
+.large-text, .x-large-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400 !important;
+    letter-spacing: -1.5px;
+    color: #fff;
+}
+
+.large-text {
+    font-size: 38px;
+}
+
+.x-large-text {
+    font-size: 44px;
+    margin-top: 15px;
+}
+
 .page-heading-text {
     margin-top: 5px;
     margin-left: 12%;
@@ -432,7 +495,7 @@ section#top {
 }
 
 .cta-heading {
-    margin: 65px auto 0 auto;
+    margin: 70px auto 0 auto;
     padding: 10px 20px;
     border: 1px solid #92d1ff;
     border-radius: 1px;
@@ -442,7 +505,7 @@ section#top {
 }
 
 .cta-buttons {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .icon-green-hero {
@@ -483,6 +546,13 @@ section#top {
   font-family: 'FontAwesome';
   float: left;
   color: #0074D9;
+}
+
+.hero-text {
+    margin-left: 12px;
+    color: #eee;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
 }
 
 /* SECTION PRICING */

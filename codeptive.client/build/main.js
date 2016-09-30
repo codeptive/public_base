@@ -12,14 +12,17 @@ $(function () {
         var sticky = $('.sticky'),
             navItem = $('.nav-item'),
             nav = $('nav'),
+            headerLine = $('#header-border'),
             scroll = $(window).scrollTop();
 
         if (scroll >= 5) {
             sticky.addClass('fix');
+            headerLine.removeClass('sub-nav-line');
             navItem.removeClass('border-left');
             nav.addClass('padding-adjust');
         } else {
             sticky.removeClass('fix');
+            headerLine.addClass('sub-nav-line');
             navItem.addClass('border-left');
             nav.removeClass('padding-adjust');
         }

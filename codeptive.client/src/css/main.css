@@ -7,10 +7,6 @@ body {
     background: #ccc;
 }
 
-body.boxed .wrapper {
-    max-width: 1440px;
-}
-
 h1, h2, h3 {
     font-family: "Open Sans", sans-serif;
     font-weight: 400 !important;
@@ -267,7 +263,6 @@ nav {
 
 header {
     padding: 26px 0 0 0;
-    left: unset !important;
 }
 
 header .logo img {
@@ -281,7 +276,6 @@ header.fix, header {
 header.fix {
     padding: 0;
     height: 50px;
-    position: fixed !important;
 }
 
 header.fix .logo img {
@@ -298,9 +292,8 @@ header.fix .button {
     margin-top: 5px;
 }
 
-header.sticky {
-    margin: 0 auto;
-    position: relative;
+header .sticky {
+    
 }
 
 .alt-nav-a, nav ul li a {
@@ -373,6 +366,7 @@ nav ul li a {
 /* SECTION SEARCH */
 
 #search {
+    margin-top: 70px;
     padding: 0 !important;
     z-index: 10;
 }

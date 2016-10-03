@@ -4,9 +4,18 @@ $(function () {
 
     // Stick Top
     var sticky = $('.sticky'),
+        header = $('header'),
+        boxWidth = $('section:first').width(),
         scroll = $(window).scrollTop();
     if (scroll >= 20) sticky.addClass('fix');
     else sticky.removeClass('fix');
+
+    header.width(boxWidth);
+
+    $(window).resize(function () {
+        var newBoxWidth = $('#search').width();
+        header.width(newBoxWidth);
+    });
 
     $(window).on('scroll', function () {
         var sticky = $('.sticky'),
@@ -18,17 +27,16 @@ $(function () {
         if (scroll >= 5) {
             sticky.addClass('fix');
             headerLine.removeClass('sub-nav-line');
-            navItem.removeClass('border-left');
             nav.addClass('padding-adjust');
         } else {
             sticky.removeClass('fix');
             headerLine.addClass('sub-nav-line');
-            navItem.addClass('border-left');
             nav.removeClass('padding-adjust');
         }
     });
 
     var random = function (min, max) {
+        max = max + 1;
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min)) + min;

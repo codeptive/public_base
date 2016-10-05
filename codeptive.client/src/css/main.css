@@ -4,7 +4,7 @@
 
 body {
     -webkit-font-smoothing: antialiased;
-    background: #ccc;
+    background-color: #fcfbff;
 }
 
 h1, h2, h3 {
@@ -49,26 +49,26 @@ img {
 /* BUTTONS & FONTS */
 
 .button, section#contact form input.button1 {
-    background: #5688d1;
-    border: 1px solid #5889e6;
-    border-radius: 1px;
+    background: #686abe;
+    border: 1px solid #686abe;
+    border-radius: 4px;
 }
 
 a.button {
     font-family: 'Open Sans', sans-serif !important;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 400;
     color: unset !important;
 }
 
 .button:hover {
-    background: #9ebddb;
+    background: #7a7cd6;
 }
 
 .blue-button {
     background: #5984d4;
     border: 1px solid #5984d4;
-    border-radius: 1px;
+    border-radius: 2px;
     box-sizing: border-box;
     transition: .1s all ease;
 }
@@ -76,19 +76,28 @@ a.button {
 .purple-button {
     background: #40BF73;
     border: 1px solid #40BF73;
-    border-radius: 1px;
+    border-radius: 2px;
     box-sizing: border-box;
 }
 
 .lt-grey-button {
     background: #8f9fb0;
     border: 1px solid #8f9fb0;
-    border-radius: 1px;
+    border-radius: 2px;
     box-sizing: border-box;
 }
 
 .white-font {
     color: #fff !important;
+}
+
+.lt-grey-font {
+    color: #ddd;
+    font-size: 16px;
+}
+
+.red-font {
+    color: #e868b1 !important;
 }
 
 .blue-font {
@@ -120,13 +129,13 @@ a.button {
     font-family: 'Open Sans', sans-serif !important;
     background: none;
     border: 1px solid #8eb0f0;
-    border-radius: 1px;
+    border-radius: 4px;
     box-sizing: border-box;
     transition: .1s all ease;
 }
 
 .blue-outline2:hover {
-    border: 1px solid #91b7ff !important;
+    border: 1px solid #adc6f6 !important;
     background: none !important;
 }
 
@@ -135,9 +144,9 @@ a.button {
 }
 
 .soft-blue-outline {
-    background: #fff;
+    background: #fcfbff;
     border: 1px solid #9ebddb !important;
-    border-radius: 1px;
+    border-radius: 2px;
     box-sizing: border-box;
 }
 
@@ -173,43 +182,31 @@ a.button {
 }
 
 .button-hero, .button-hero-alt {
-    background: #19a961;
-    border: 1px solid #24c876;
-    border-radius: 1px;
+    background: #686abe;
+    border: 1px solid #686abe;
+    border-radius: 4px;
     padding: 10px 20px;
     display: inline-block;
     color: #fff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
     transition: .1s all ease;
-    line-height: 38px;
-    width: 260px;
-    height: 60px;
-    -webkit-box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.5);
-    box-shadow: 0px -1px 20px 10px rgba(0,0,0,0.5);
-}
-
-.button-hero-alt {
-    background: #537ad1;
-    border: 1px solid #537ad1;
+    line-height: 30px;
+    width: 210px;
+    height: 52px;
 }
 
 .button-hero:hover {
-    background: #1cb569;
-    border: 1px solid #1cb569;
+    background: #7a7cd6;
+    border: 1px solid #7a7cd6;
 }
-
-.button-hero-alt:hover {
-    background: #5b84df;
-    border: 1px solid #5b84df;
-}
-
 
 .button:hover, .button:active, .button:focus, section#contact form input.button1:hover {
-    background: #5CD68E;
-    border: 1px solid #5CD68E;
+    background: #7a7cd6;
+    border: 1px solid #7a7cd6;
 }
 
 .blue-button:hover, .blue-button:active, .blue-button:focus {
@@ -219,7 +216,7 @@ a.button {
 
 .green-outline:hover {
     background: none !important;
-    border: 1px solid #61E094 !important;
+    border: 1px solid #08c1e9 !important;
 }
 
 .green-outline:hover span {
@@ -227,7 +224,7 @@ a.button {
 }
 
 .btn {
-    border-radius: 1px;
+    border-radius: 2px;
     padding: 6px 16px;
 }
 
@@ -270,7 +267,7 @@ header .logo img {
 }
 
 header.fix, header {
-    background-color: #fff;
+    background-color: #fcfbff;
 }
 
 header.fix {
@@ -327,7 +324,7 @@ nav ul li a {
 }
 
 .icon-header {
-    color: #5688d1;
+    color: #686abe;
     font-size: 15px;
 }
 
@@ -335,7 +332,7 @@ nav ul li a {
     border-top: 1px solid #e7ecf2;
     height: 1px;
     background: none;
-    margin: 0 15px 15px 15px;
+    margin: 0 15px 22px 15px;
 }
 
 /* SUB NAV */
@@ -348,7 +345,6 @@ nav ul li a {
     line-height: 30px;
     text-align: left;
     vertical-align: baseline; 
-    margin-top: 10px;
 }
 
 .social-icon-wrapper {
@@ -366,17 +362,17 @@ nav ul li a {
 /* SECTION SEARCH */
 
 #search {
-    margin-top: 70px;
+    margin-top: 75px;
     padding: 0 !important;
     z-index: 10;
 }
 
 section#search {
-    background: #fff;
+    background: #fcfbff;
 }
 
 .search-form {
-    background-color: #fff;
+    background-color: #fcfbff;
     height: 83px;
     width: 100%;
     padding-top: 15px;
@@ -390,9 +386,9 @@ section#search {
 
 .outline-search {
     font-family: 'Open Sans', sans-serif !important;
-    background: #fff;
+    background: #fcfbff;
     border: 1px solid #8eb0f0 !important;
-    border-radius: 1px;
+    border-radius: 2px;
     box-sizing: border-box;
 }
 
@@ -404,9 +400,9 @@ section#search {
 .solid-pill-search {
     font-family: 'Open Sans', sans-serif !important;
     color: #eee;
-    background: #fff;
-    border: 1px solid #699fee !important;
-    border-radius: 25px !important;
+    background: #fcfbff;
+    border: 1px solid #8eb0f0 !important;
+    border-radius: 4px !important;
     box-sizing: border-box;
 }
 
@@ -452,54 +448,55 @@ section#search {
 
 /* SECTION TOP */
 
-.shader, .shader-gradient, .shader-primary {
-    opacity: 1;
-}
-
-.shader {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #101012;
-    z-index: 1;
-}
-
 section#top {
     background: none;
-    background-size: cover;
-    height: 550px;
+    height: 500px;
     padding-top: 0;
     z-index: 1;
 }
 
-.opacity-layer {
-    background: rgba(10,10,14,0.5)
+.page-title-a {
+    height: 500px;
+    z-index: 20;
+    background-image: url('../img/illustrations/main_illustration_1e.png');
+    background-position: 20% 33%;
+    background-repeat: no-repeat;
+    background-color: #fcfbff;
 }
 
-.page-title {
+.page-title-b {
+    height: 500px;
     z-index: 20;
-    color: #fff;
-    width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .page-heading-top {
     margin-top: 65px;
-}
-
-.large-text, .x-large-text {
+    color: #4a4c9c;
     font-family: "Open Sans", sans-serif;
     font-weight: 400 !important;
     letter-spacing: -1.5px;
-    color: #fff;
 }
 
 .large-text {
-    font-size: 34px;
+    font-size: 24px;
+    letter-spacing: .01em;
+    margin-top: 15px;
+    line-height: 28px;
 }
 
 .x-large-text {
-    font-size: 46px;
-    margin-top: 15px;
+    font-size: 34px;
+    letter-spacing: .02em;
+    margin-top: 8px;
+    line-height: 42px;
+}
+
+.page-body-text p {
+    margin-top: 5px;
+    margin-bottom: -12px;
+    padding: 13px 0 5px 0;
+    color: #6e717f;
 }
 
 .diamond {
@@ -520,14 +517,23 @@ section#top {
     margin: 70px auto 0 auto;
     padding: 10px 20px;
     border: 1px solid #92d1ff;
-    border-radius: 1px;
+    border-radius: 2px;
     width: 200px;
     height: 50px;
     background: rgba(10,10,9,0.5);
 }
 
+.sub-cta-button {
+    margin: 16px 0 0 14px;
+}
+
+.sub-cta-button a {
+    color: #e868b1;
+    font-size: 12px;
+}
+
 .cta-buttons {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .margin-left-med {
@@ -581,10 +587,26 @@ section#top {
     font-size: 17px;
 }
 
+/* PROMO */
+
+section#promo {
+    height: 80px;
+    width: 100%;
+    background: #473375;
+    padding: 0 !important;
+}
+
+.tech-list {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    color: #997ddb;
+    line-height: 80px;
+}
+
 /* SECTION PRICING */
 
 .gradient, .shader-gradient {
-    background: #2d64a5;
+    background: #3c2968;
 }
 
 /* FOOTER (CONTACT) */

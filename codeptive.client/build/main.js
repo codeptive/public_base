@@ -44,6 +44,7 @@ $(function () {
 
     // search init
     $(document).ready(function (e) {
+        /*
         var num = random(1, 4);
         var shader = document.getElementById("shader");
         shader.style.backgroundImage = "url('img/hero/hero_" + num.toString() + ".png')";
@@ -55,6 +56,7 @@ $(function () {
             $('.search-panel span#search_concept').text(concept);
             $('.input-group #search_param').val(param);
         });
+        */
     });
 
     $(window).on('scroll', function () {

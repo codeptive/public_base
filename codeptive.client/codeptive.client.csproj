@@ -40,6 +40,7 @@
     <Content Include="src\img\icon_twitter.png" />
     <Content Include="src\img\icon_users.png" />
     <Content Include="src\img\icon_users2.png" />
+    <Content Include="src\img\illustrations\main_illustration_1a.png" />
     <Content Include="src\img\logo_lockup_main.png" />
     <Content Include="src\img\logo_lockup_main_smaller.png" />
     <Content Include="src\img\logo_mark.png" />

@@ -524,7 +524,7 @@ section#top {
 }
 
 .sub-cta-button {
-    margin: 16px 0 0 14px;
+    margin: 12px 0 0 14px;
 }
 
 .sub-cta-button a {
@@ -533,7 +533,7 @@ section#top {
 }
 
 .cta-buttons {
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 .margin-left-med {
@@ -590,17 +590,48 @@ section#top {
 /* PROMO */
 
 section#promo {
-    height: 80px;
+    height: 90px;
     width: 100%;
     background: #473375;
     padding: 0 !important;
 }
 
-.tech-list {
-    font-family: "Open Sans", sans-serif;
-    font-size: 22px;
-    color: #997ddb;
-    line-height: 80px;
+.tech-list a {
+    font-family: "Open Sans", sans-serif !important; 
+    font-size: 17px !important;
+    color: #a2a4eb !important;
+}
+
+.tech-list a:hover {
+    color: #c5c7f8 !important;
+}
+
+.tech-list ul {
+    display: table;
+    width: 100%;
+}
+
+.tech-list ul li {
+    display: table-cell;
+    text-align: center;
+    width: 4%;
+}
+
+.tech-list ul li div {
+    margin: 17px 0 6px 0;
+}
+
+.tech-list ul li span {
+    line-height: 20px;
+
+}
+
+/* HOW IT WORKS */
+
+section#howItWorks {
+    padding: 50px 0;
+    font-family: "Open Sans", sans-serif !important; 
+    text-align: center;
 }
 
 /* SECTION PRICING */

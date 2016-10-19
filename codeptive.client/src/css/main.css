@@ -4,7 +4,7 @@
 
 body {
     -webkit-font-smoothing: antialiased;
-    background-color: #fcfbff;
+    background-color: #161d25;
 }
 
 h1, h2, h3 {
@@ -49,8 +49,8 @@ img {
 /* BUTTONS & FONTS */
 
 .button, section#contact form input.button1 {
-    background: #686abe;
-    border: 1px solid #686abe;
+    background: #2cc486;
+    border: 1px solid #2cc486;
     border-radius: 4px;
 }
 
@@ -88,7 +88,7 @@ a.button {
 }
 
 .white-font {
-    color: #fff !important;
+    color: #fcfbff !important;
 }
 
 .lt-grey-font {
@@ -181,9 +181,29 @@ a.button {
     margin-top: 0;
 }
 
+/*
 .button-hero, .button-hero-alt {
     background: #686abe;
     border: 1px solid #686abe;
+    border-radius: 4px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: .1s all ease;
+    line-height: 30px;
+    width: 210px;
+    height: 52px;
+}
+*/
+
+.button-hero, .button-hero-alt {
+    background: #2cc486;
+    border: 1px solid #2cc486;
     border-radius: 4px;
     padding: 10px 20px;
     display: inline-block;
@@ -267,7 +287,7 @@ header .logo img {
 }
 
 header.fix, header {
-    background-color: #fcfbff;
+    background-color: #161d25;
 }
 
 header.fix {
@@ -450,28 +470,28 @@ section#search {
 
 section#top {
     background: none;
-    height: 500px;
+    height: 495px;
     padding-top: 0;
     z-index: 1;
 }
 
 .page-title-a {
-    height: 500px;
+    height: 495px;
     z-index: 20;
     background-image: url('../img/illustrations/main_illustration_1e.png');
     background-position: 20% 33%;
     background-repeat: no-repeat;
-    background-color: #fcfbff;
+    background-color: #161d25;
 }
 
 .page-title-b {
-    height: 500px;
+    height: 495px;
     z-index: 20;
     text-align: left;
 }
 
 .page-heading-top {
-    margin-top: 65px;
+    margin-top: 70px;
     color: #4a4c9c;
     font-family: "Open Sans", sans-serif;
     font-weight: 400 !important;
@@ -590,7 +610,7 @@ section#top {
 /* PROMO */
 
 section#promo {
-    height: 90px;
+    height: 100px;
     width: 100%;
     background: #473375;
     padding: 0 !important;
@@ -618,7 +638,7 @@ section#promo {
 }
 
 .tech-list ul li div {
-    margin: 17px 0 6px 0;
+    margin: 20px 0 6px 0;
 }
 
 .tech-list ul li span {
@@ -632,6 +652,15 @@ section#howItWorks {
     padding: 50px 0;
     font-family: "Open Sans", sans-serif !important; 
     text-align: center;
+}
+
+.how-it-works-heading {
+    margin: 30px 0 60px 0;
+    color: #4a4c9c;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400 !important;
+    letter-spacing: -1.5px;
+    width: 100%;
 }
 
 /* SECTION PRICING */

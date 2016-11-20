@@ -45,7 +45,6 @@
     <Content Include="src\img\logo_lockup_main_smaller.png" />
     <Content Include="src\img\logo_mark.png" />
     <Content Include="src\index.html" />
-    <Content Include="src\jsx\app.jsx" />
     <Content Include="src\jsx\components\account\register.jsx" />
     <Content Include="src\jsx\components\auth\login.jsx" />
     <Content Include="gulpfile.js" />
@@ -60,11 +59,16 @@
     <Content Include="src\vendor\theme\lity.min.css" />
     <Content Include="src\vendor\theme\owl.carousel.css" />
     <Content Include="src\vendor\theme\reset.css" />
-    <Content Include="build\inview-control.js" />
-    <Content Include="build\main.js" />
     <Content Include="src\vendor\theme\screen.css" />
+    <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="src\app\components\chat\" />
+    <Folder Include="src\app\components\common\" />
+    <Folder Include="src\app\components\content\" />
+    <Folder Include="src\app\components\error\" />
+    <Folder Include="src\app\components\footer\" />
+    <Folder Include="src\app\components\header\" />
     <Folder Include="src\img\hero\" />
     <Folder Include="src\jsx\components\chat\" />
     <Folder Include="src\jsx\components\common\" />
@@ -75,7 +79,6 @@
     <Folder Include="src\vendor\scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="src\jsx\app.jsx" />
     <Content Include="src\jsx\components\account\register.jsx" />
     <Content Include="src\jsx\components\auth\login.jsx" />
   </ItemGroup>
@@ -88,6 +91,14 @@
     <Content Include="src\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="src\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="src\vendor\font-awesome\fonts\FontAwesome.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\app\app.tsx" />
+    <TypeScriptCompile Include="src\app\components\account\register.tsx" />
+    <TypeScriptCompile Include="src\app\components\auth\login.tsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tsconfig.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

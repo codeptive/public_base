@@ -32,7 +32,9 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="config\database.js" />
+    <Compile Include="lib\auth\auth.js" />
     <Compile Include="lib\logger\logger.js" />
+    <Compile Include="models\user.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
